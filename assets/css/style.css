@@ -1,0 +1,76 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	background: url('../images/crisp_paper_ruffles.png') repeat #d2d7dd;
+	color: #777;
+}
+
+footer {
+    height: 90px;
+    border-top: 5px solid #4aaaa5;
+}
+
+h1, h2 {
+    font: bold 175%/225% 'Georgia', Times, Times New Roman, serif;
+    margin: 0.75em 0 1em 0;
+    border-bottom: 2px solid #ccc;
+    color: #4aaaa5;
+}
+
+p {line-height: 2rem;}
+
+footer p {line-height: 75px;}
+
+.container {
+    max-width: 960px;
+}
+
+.navbar-brand {
+    font: bold 175%/225% 'Georgia', Times, Times New Roman, serif;
+    padding-top: 0.825rem;
+    padding-bottom: 0.825rem;
+}
+
+.port-link {
+    position: absolute;
+    text-align: center;
+    width: 95%;
+    left: 2.5%;
+    bottom: 1.25em;
+    font: 125%/200% 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+}
+
+.btn-primary, .bg-info { 
+    background-color: #4aaaa5 !important;
+    border: none;
+}
+
+ @media (min-width: 768px) {
+
+    body {
+        margin-bottom: 150px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width:100%;
+    }
+
+    .port-link {
+        width: 90%;
+        left: 5%;
+    }
+
+    .w-100 {
+        width: auto !important;
+    }
+
+    .profile {
+        max-width: 200px;
+    }
+}
